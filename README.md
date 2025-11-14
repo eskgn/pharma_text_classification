@@ -7,3 +7,7 @@ Un modèle de langue pré-entraîné francophone, CamemBERT, a été fine-tuné 
 Le modèle fine-tuné atteint un F1-score moyen de 0.82, démontrant une excellente capacité de généralisation malgré la complexité linguistique et la diversité des formulations utilisées par les pharmaciens.
 
 Ces résultats montrent que l’utilisation de modèles de langue pré-entraînés permet d’automatiser efficacement la classification des interventions pharmaceutiques, ouvrant la voie à une standardisation et une accélération de la documentation clinique au sein des services de pharmacie hospitalière.
+
+Versions Q1 et Q2 :
+Q1 correspond à une classification binaire grave / non grave, où les classes et sous-classes 4, 5, 6.3 et 6.4 sont regroupées pour identifier les interventions potentiellement graves.
+Q2 correspond à la version multi-classes complète, comprenant les 11 classes SFPC.
